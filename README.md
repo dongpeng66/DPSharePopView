@@ -12,7 +12,8 @@
 
 #usage</br>
 #把DPSharePopView文件导入项目中</br>
-DPSharePopView *view=[DPSharePopView initWithSuperView:btn menuCellNameArray:@[@"QQ好友",@"QQ空间",@"微信好友",@"微信朋友圈"] </br>imageNameArray:@[@"share_qq_friend",@"share_qq_kongjian",@"share_wx_friend",@"share_wx_pengyouquan"] </br>cellDidClickBlock:^(NSInteger index) {</br>
+DPSharePopView *view=[DPSharePopView initWithSuperView:btn menuCellNameArray:@[@"QQ好友",@"QQ空间",@"微信好友",@"微信朋友圈"]       imageNameArray:@[@"share_qq_friend",@"share_qq_kongjian",@"share_wx_friend",@"share_wx_pengyouquan"] cellDidClickBlock:^(NSInteger index) {</br>
         
 }];</br>
 [view show];</br>
+#此处的btn即为参考的视图
